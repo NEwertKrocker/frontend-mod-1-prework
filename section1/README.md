@@ -12,7 +12,7 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 
 If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully.
 
-One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading doucmentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
+One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading documentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
 
 Here's what we ask you do:
 - Find a special spot in your notebook for vocabulary and JavaScript reserved keywords. Mark it with a post-it or bookmark, so it's easy to find and come back to
@@ -53,7 +53,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻 Complete all three Challenges.
+👩‍💻 Complete all three Challenges. ✅
 
 ### Making Things, Navigating
 
@@ -98,6 +98,8 @@ mkdir secretLibraryProject
 
 Note that in the command provided above, the dashes preceding the directory name were not used in the actual directory name. The dashes are just used as a diagram aide, and is a common pattern you will see in other documentation.
 
+Done! 7/8/21 ✅
+
 ### Deleting Things
 
 #### Commands
@@ -108,7 +110,7 @@ Note that in the command provided above, the dashes preceding the directory name
 
 #### Terminal Practice
 
-👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
+👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above. ✅ Done 7/8/21
 
 Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
@@ -140,7 +142,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 ### Introduction to JavaScript
 
-📒 To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒 To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book. ✅
 
 ### Comments in Code
 
@@ -152,7 +154,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 // will be ignored by the JavaScript interpreter.
 ```
 
-📒 For additional context about code comments, read page 57 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒 For additional context about code comments, read page 57 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book. ✅
 
 ```JavaScript
 // Anything after the // is ignored by the JavaScript interpreter.
@@ -230,7 +232,7 @@ _These are all examples of statements that evaulate to a `Boolean` data type in 
 
 Read more about compairson operators [here](https://javascript.info/comparison)!
 
-> 👩‍💻 PAUSE here, and complete the exercises in `dataTypes.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `dataTypes.js` ✅
 
 ### Variables and Assignment
 
@@ -280,7 +282,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., `thisIsMyVariableName`
 
-> 👩‍💻 PAUSE here, and complete the exercises in `variables.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `variables.js` ✅
 
 ### Concatenation
 
@@ -307,10 +309,10 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-> 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js` ✅
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
@@ -335,7 +337,7 @@ console.log(snackCountInterpolate);
 // this will log the string "I have 12 doughnuts!"
 ```
 
-> 👩‍💻 PAUSE here, and complete the exercises in `interpolation.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `interpolation.js` ✅
 
 
 ## Exercises
