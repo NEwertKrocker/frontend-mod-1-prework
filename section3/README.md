@@ -50,7 +50,7 @@ Research the array methods below on the MDN documentation provided. This documen
 * Methods to research: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
 * _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
 
-> 👩🏻‍💻 PAUSE here, and complete the exercises in `arrays.js`
+> 👩🏻‍💻 PAUSE here, and complete the exercises in `arrays.js` ✅
 
 ## Part C Loops
 

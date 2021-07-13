@@ -24,42 +24,51 @@ console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
-
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
+animals[2] = 'Gorilla';
 
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals[3] = 'Octopus';
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-
+animals[4] = 'Elephant';
+console.log(animals[4]);
 
 //-------------------
 // PART 2: Foods: Array Methods
 //-------------------
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+var fridgeContents;
+fridgeContents = ['apples', 'carrots', 'cheese', 'sriracha']
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
-
+console.log(fridgeContents.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-
+fridgeContents.push('broccoli');
+console.log(fridgeContents);
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
+fridgeContents.pop();
+console.log(fridgeContents);
 
-
-// YOU DO: Write code to add 3 new foods to the array. 
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
+fridgeContents.unshift('soda', 'sliced turkey breast', 'milk');
+console.log(fridgeContents);
+
 
 // YOU DO: Remove the food that is in index position 0.
+fridgeContents.shift();
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -79,12 +88,19 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1: Twitter allows you to create individual lists of accounts you follow -- for
+// example, I have a shortlist of ~40 people with whom I'm actually friends, a timeline
+// I follow more closely than my overall timeline.
+
+// 2: A site I have used in the past is called PriceCharting.com, which allows you
+// to track your videogame collection and see the total value (and see when the resale
+// value of your old games goes up). Surely these collections are also stored in arrays.
+
+// 3: The website of my local library keeps tabs on all the books I have currently
+// checked out. I presume that list is an array as well.
 
 
 //-------------------
@@ -96,17 +112,27 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
 */
 var percentBatteryLeft = 12;
-var hasCharger = true;
+var hasCharger = false;
 var chargerType = "car";
 
 // Write your conditional here
-
+// This line checks to see if the user EITHER has 15% or greater battery
+// OR both has their charger and the charger is the correct type.
+if (percentBatteryLeft >= 15 || (hasCharger == true && chargerType === "car")) {
+  // This line tells them that they're all good if one of the two conditional sets
+  // returns true!
+  console.log("You're good! You can call an Uber.");
+  // This line tells the code what to do if NEITHER of the conditional sets is met.
+} else {
+  // This line tells the user that they're SOL!
+  console.log("Uh-oh. Either charge that phone or get a car charger, mate!");
+}
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
