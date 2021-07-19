@@ -51,7 +51,7 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
 var narrator = "Ishmael";
 var captain = "Ahab";
 var pageCount = 840;
-console.log("Our narrator, " + narrator +", sets sail with Captain " + captain +
+console.log("Our narrator, " + narrator + ", sets sail with Captain " + captain +
   " on a quest to hunt the White Whale for some " + pageCount + " pages or so.")
 
 

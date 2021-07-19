@@ -56,7 +56,7 @@ console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !==
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-console.log("Is numberStudents greeater than or equal to 20?", numberStudents >= 20);
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
@@ -139,7 +139,7 @@ console.log(lovesToPlay && (age < 1));
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER: It evaluated to false. A quick Google tells me that according to the American Kennel Club,
 // dogs are considered "adult" once they hit the age of one, regardless of whether or not they're finished
-// growing. 
+// growing.
 
 //-------------------
 // FINAL CHECK
